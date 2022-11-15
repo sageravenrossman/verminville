@@ -3,27 +3,53 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+  }
+  
+  .background{
+    position: absolute;
     height: 100vh;
     width: 100vh;
     margin: 0; 
     background-image: url("https://c0.wallpaperflare.com/preview/828/635/683/pollution-rubbish-waste-environment.jpg");
-/*     background-repeat: no-repeat; */
-/*     background-size: 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
     min-width: 100%;
   		  min-height: 100%;
   }
   
   .welcome{
-    position: static;
-    float: center;
-    background-color: green;
+    position: relative;
+    background-color: purple;
     z-index: 1;
+    margin: auto;
+    padding: 10px;
+    left: 10px;
+    top: 10px;
     font-size: 40;
     color: rgb(255, 255, 255);
     font-family: comic sans, cursive;
     border-radius: 20%;
+    width: fit-content;
   }
+  
+   .possum{
+     position: fixed;
+     background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f3ad27a6-33c7-48ce-b608-9dff31ee8a1b/ddsh5s6-4d61cabd-5988-4c09-83e7-0bf80d2c7750.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2YzYWQyN2E2LTMzYzctNDhjZS1iNjA4LTlkZmYzMWVlOGExYlwvZGRzaDVzNi00ZDYxY2FiZC01OTg4LTRjMDktODNlNy0wYmY4MGQyYzc3NTAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-srj4EejPDExeDd-qcESnW0QXeEgxW1BfnkqqqOwLkc");
+     height: 100vh;
+     width: 100vh;	
+     z-index: 2;
+     background-repeat: no-repeat;
+    }
 
 </style>
+<div class="background">
+  <div class="welcome">welcome to verminville!!!</div>
+  <div class="possum">
+    <a href="https://www.youtube.com/watch?v=ZtLrn2zPTxQ">
+      <span class="link"></span>
+    </a>
+  </div>
+</div>
 
-<div class="welcome">welcome to verminville!!!</div>
+
