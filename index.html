@@ -7,19 +7,32 @@
   
   .background{
     position: absolute;
-    height: 100vh;
-    width: 100vh;
+    min-height: 100vh;
+    min-width: 100vw;
     margin: 0; 
     background-image: url("https://c0.wallpaperflare.com/preview/828/635/683/pollution-rubbish-waste-environment.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 100%;
-  		  min-height: 100%;
   }
   
   .welcome{
     position: relative;
-    background-color: purple;
+/*     background-color: purple; */
+    z-index: 1;
+    margin: auto;
+    padding: 10px;
+    left: 10px;
+    top: 10px;
+    font-size: 40;
+    color: rgb(255, 255, 255);
+    font-family: comic sans, cursive;
+    border-radius: 20%;
+    width: fit-content;
+  }
+  
+   .text{
+    position: relative;
     z-index: 1;
     margin: auto;
     padding: 10px;
@@ -33,31 +46,69 @@
   }
   
    .possum{
-     position: relative;
+     position: absolute;
      height: 150px;
      width: 150px;	
      z-index: 2;
      left: 10%;
-     top: 40%;
+     top: 60%;
     }
   
   .racc{
-    position: relative;
+    position: absolute;
     height: 130px;
-    width: 130px;	
+    width: 140px;	
     z-index: 3;
     left: 75%;
-    top: 15%;
+    top: 22%;
   }
+  
+  .rat{
+    position: absolute;
+    height: 110px;
+    width: 150px;	
+    z-index: 3;
+    left: 30%;
+    top: 80%;
+  }
+  
+  .frog{
+    position: absolute;
+    height: 80px;
+    width: 100px;	
+    z-index: 3;
+    left: 55%;
+    top: 84%;
+  }
+  
+  .supreme{
+    position: absolute;
+    height: 220px;
+    width: 150px;	
+    z-index: 3;
+    left: 70%;
+    top: 63%;
+  }
+
 
 </style>
 <div class="background">
   <div class="welcome">welcome to verminville!!!</div>
+  <div class="text">please select a vermin </div>
   <a target="_blank" href="https://www.youtube.com/watch?v=rfbb4yRBH64">
-    <img class="racc" src="raccgif.gif" alt="description of image">
+    <img class="racc" src="racc1.png" alt="description of image">
   </a>
   <a target="_blank" href="https://www.youtube.com/watch?v=ZtLrn2zPTxQ">
     <img class="possum" src="possum1.png" alt="description of image">
+  </a>
+  <a target="_blank" href="https://news.uchicago.edu/story/helping-your-fellow-rat-rodents-show-empathy-driven-behavior">
+    <img class="rat" src="rat1.png" alt="a rat">
+  </a>
+  <a target="_blank" href="https://en.wikipedia.org/wiki/Frog">
+    <img class="frog" src="frog.png" alt="a frog">
+  </a>
+  <a target="_blank" href="https://www.youtube.com/watch?v=4d_FvgQ1csE">
+    <img class="supreme" src="supreme.png" alt="vermin supreme">
   </a>
   
 
